@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+
 import { JwtModule } from '@nestjs/jwt';
 import { ConfigModule } from '@nestjs/config';
 import { SequelizeModule } from '@nestjs/sequelize';
@@ -31,6 +31,7 @@ import { OrderModule } from './order/order.module';
     }),
 
     OrderModule,
+    CategoryModule
 
   ],
 })
